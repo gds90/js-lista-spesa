@@ -4,7 +4,7 @@ const list = ['Sale', 'Pomodori', 'Cipolle', 'Burro', 'Bagnoschiuma', 'Pasta', '
 // associo l'elemento HTML con id 'shopping_list' ad una variabile
 const shopping_list = document.getElementById('shopping_list');
 
-// inizializzo la variabile contatore
+// dichiaro e inizializzo la variabile contatore del ciclo while
 let i = 0;
 
 // tramite un ciclo while stampo la lista in DOM
@@ -22,3 +22,11 @@ while (i<list.length){
     // incremento della variabile contatore
     i++;
 }
+
+// metodo con innerHTML
+
+// while (i<list.length){
+//     shopping_list.innerHTML += '<li>${list[i]}</li>';
+
+//     i++;
+// }
